@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter" , sans-serif;
+    color: #2B283A;
+}
+body{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    border:1px solid rgb(118, 118, 118);
+    width: 500px;
+    height: 500px;
+}
+.options-container{
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+    gap: 8px;
+}
+.options-container > input[type="color"] {
+    width: 50px;
+    height: 40px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    padding: 2px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+}
+.options-container > select {
+    flex: 1;
+    height: 40px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    padding: 0 8px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+.options-container > button{
+    height: 40px;
+    width: 140px;
+    background-color: #fff;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.options-container > button:hover {
+    background-color: #f0f0f0;
+}
+.colors-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 85%;
+}
+.color{
+    /* min-width: 80px; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+}
+.color-code{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding-block: 20px;
+    font-size: 12px;
+}
+.first{
+    background-color: #F55A5A;
+    /* width: 25%; */
+    /* height: 500px; */
+}
+.second{
+    background-color: #2B283A;
+    /* width: 25%; */
+}
+.third{
+    background-color: #FBF3AB;
+    /* width: 25%; */
+}
+.fourth{
+    background-color: #AAD1B6;
+    /* width: 25%; */
+}
+.fifth{
+    background-color: #A626D3;
+    /* width: 25%; */
+}
