@@ -15,6 +15,7 @@ body{
     border:1px solid rgb(118, 118, 118);
     width: 500px;
     height: 500px;
+    border-radius: 8px;
 }
 .options-container{
     height: 15%;
@@ -27,7 +28,6 @@ body{
 .options-container > input[type="color"] {
     width: 50px;
     height: 40px;
-    border: 1px solid #D1D5DB;
     border-radius: 6px;
     padding: 2px;
     background: transparent;
@@ -65,12 +65,10 @@ body{
     height: 85%;
 }
 .color{
-    /* min-width: 80px; */
-    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 25%;
+    justify-content: end;
+    flex: 1;
 }
 .color-code{
     background-color: white;
@@ -81,22 +79,16 @@ body{
 }
 .first{
     background-color: #F55A5A;
-    /* width: 25%; */
-    /* height: 500px; */
 }
 .second{
     background-color: #2B283A;
-    /* width: 25%; */
 }
 .third{
     background-color: #FBF3AB;
-    /* width: 25%; */
 }
 .fourth{
     background-color: #AAD1B6;
-    /* width: 25%; */
 }
 .fifth{
     background-color: #A626D3;
-    /* width: 25%; */
 }
